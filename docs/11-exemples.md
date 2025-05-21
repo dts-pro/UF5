@@ -385,10 +385,10 @@ public class UF06Exemple10 {
 
 Veurem un exemple de com omplir i mostrar un vector d'enters:
 
-![Exemples omplir Vector](../UD5/img/exempleOmplirVector.jpg)
+![Exemples omplir Vector](uf5/exempleOmplirVector.jpg)
 
 Fem ús de la propietat `length`. També podríem haver posat un 5 (grandària del vector). L'eixida és:
 
-![Eixida Omplir Vector](../UD5/img/EixidaOplirVector.jpg)
+![Eixida Omplir Vector](uf5/EixidaOplirVector.jpg)
 
 Podem introduir els valors amb espais i una vegada introduït el cinqué número donar-li al 'intro'. O introduir un valor per línia.

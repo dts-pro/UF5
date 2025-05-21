@@ -25,7 +25,7 @@ En aquest cas el vector ha d'estar ordenat. Es dividirà en dos per a buscar l'e
 
 Un exemple és el següent:
 
-![Exemples Bísqueda Dicotòmica](../UD5/img/busquedaDicotomica.jpg)
+![Exemples de búsqueda dicotòmica](uf5/busquedaDicotomica.jpg)
 
 En aquest cas, igual que en l'anterior, la funció retorna la posició de l'element o -1 si no el troba. És important veure que el vector ha d'estar ordenat per a quedar-nos amb la part des de l'esquerra al centre del vector o des del centre del vector a la dreta, depenent si l'element a buscar és major o menor a l'element del centre del vector.
 

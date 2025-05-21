@@ -173,7 +173,7 @@ System.out.println(String.format("%.2f", number)); // Mostra el número amb dos 
   - Repetició obligada. Ho fa el signe +. L'expressió es repeteix una o més vegades (però almenys una).
   - Repetició un nombre exacte de vegades. Un número entre claus indica les vegades que es repeteix l'expressió. Per exemple \d{7} significa que el text ha de portar set números (set xifres del 0 al 9). Amb una coma significa almenys, és a dir \d{7,} significa almenys set vegades (podria repetir-se més vegades). Si apareix un segon número indica un màxim nombre de vegades \d{7,10} significa de set a deu vegades.
 
-![Exemples Matches](../UD5/img/Matches.jpg)
+![Exemples Matches](uf5/Matches.jpg)
 
 Com ja sabem, la lectura d'un String utilitzant la classe Scanner es realitza amb el mètode `nextLine()`:
 

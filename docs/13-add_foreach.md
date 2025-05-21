@@ -1,4 +1,4 @@
-# FOR EN FORMAT FOREACH
+# For en format foreach
 
 En treballar amb arrays és molt freqüent cometre errors fent servir els índexs. L'error més típic consisteix a intentar accedir a un element mitjançant un índex que surt dels límits.
 
