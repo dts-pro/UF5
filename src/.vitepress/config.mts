@@ -5,10 +5,10 @@ import { withMermaid } from "vitepress-plugin-mermaid";
 // https://vitepress.dev/reference/site-config
 export default withMermaid({
   lang: 'ca-ES',
-  title: 'Títol',
+  title: 'UF5',
   description: 'Descripció',
-  base: '/',
-  outDir: './dist',
+  base: '/UF5/',
+  outDir: '../docs',
   markdown: {
     config(md) {
       md.use(tabsMarkdownPlugin)
@@ -70,8 +70,8 @@ export default withMermaid({
       },
       { text: '📚 Continguts', items: [
         { text: 'For en format foreach', link: '/13-add_foreach' },
-        { text: '<img src="/img/logo-gva.png" class="logo-anim" style="vertical-align:middle; height:150px; margin-top:100px;">', link: '' },
-        { text: '<img src="/img/logo-centro.png" class="logo-anim" style="vertical-align:middle; height:150px;">', link: '' }
+        { text: '<img src="img/logo-gva.png" class="logo-anim" style="vertical-align:middle; height:150px; margin-top:100px;">', link: '' },
+        { text: '<img src="img/logo-centro.png" class="logo-anim" style="vertical-align:middle; height:150px;">', link: '' }
       ]}
     ],
     socialLinks: [
