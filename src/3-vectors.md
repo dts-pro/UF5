@@ -38,7 +38,7 @@ Els valors del array s'assignen (emmagatzemen) utilitzant l'índex del mateix en
 
 **IMPORTANT!**: El **primer element del vector** sempre estarà en la posició o **índex 0**.
 
-![Índex vectors](uf5/IndexVectors.jpg)
+![Índex vectors](/uf5/IndexVectors.jpg)
 
 Per exemple, per a emmagatzemar el valor 2 en la tercera posició del array escriuríem:
 
@@ -118,7 +118,7 @@ Per a copiar vectors no n'hi ha prou amb igualar un vector a un altre com si for
 
 Si partim de dos vectors v1, v2 i férem v2=v1, el que ocorreria seria que v2 apuntaria a la posició de memòria de v1. Això és el que es denomina un copia de referència:
 
-![Apuntar memòria vector](uf5/ApuntarMemoriaVector.jpg)
+![Apuntar memòria vector](/uf5/ApuntarMemoriaVector.jpg)
 
 Si per exemple volem copiar tots els elements del vector v2 en el vector v1, existeixen dues formes per a fer-ho.
 

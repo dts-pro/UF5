@@ -6,7 +6,7 @@ Les matrius es defineixen de les següents formes:
 
 `tipus identificador[][]; tipus[][] identificador;`
 
-![Matriu](uf5/Matriu.jpg)
+![Matriu](/uf5/Matriu.jpg)
 
 Per exemple, declarem i instanciem un array de 3 x 3 (3 files x 3 columnes).
 
