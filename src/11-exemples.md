@@ -1,13 +1,18 @@
-# Exemple 01
+# Exemples
+
+## Exemple 1
 
 Crear i carregar un array.
 
+::: tabs
+== Java
+
 ```java
-package curso.uf06exemples;
+package curs.UF05exemples;
 /**
-* UF06 Exemple 1: Crear un array
+* UF05 Exemple 1: Crear un array
 */
-public class UF06Exemple01 {
+public class UF05Exemple01 {
     public static void main(String[] args) {
         // Declaració de l'array
         int n[] = new int[4];
@@ -26,17 +31,22 @@ public class UF06Exemple01 {
 }
 ```
 
-# Exercici 02
+:::
+
+## Exemple 2
 
 Mostrar el contingut de la posició del vector que demane l’usuari.
 
+::: tabs
+== Java
+
 ```java
-package curso.uf06exemples;
+package curs.UF05exemples;
 import java.util.Scanner;
 /**
 * Mostrar el contingut de la posició del vector que demane l’usuari.
 */
-public class UF06Exemple02 {
+public class UF05Exemple02 {
     public static void main(String[] args) {
 
         // Declaració de variables i carrega de dades en l'array
@@ -57,17 +67,22 @@ public class UF06Exemple02 {
 }
 ```
 
-# Exemple 03
+:::
+
+## Exemple 3
 
 Carregar un array amb valors demanats per pantalla.
 
+::: tabs
+== Java
+
 ```java
-package curso.uf06exemples;
+package curs.UF05exemples;
 import java.util.Scanner;
 /**
-* UF06 Exemple 3: Carregar un array amb valors demanats per pantalla.
+* UF05 Exemple 3: Carregar un array amb valors demanats per pantalla.
 */
-public class UF06Exemple03 {
+public class UF05Exemple03 {
     public static void main (String[] args) {
 
         // Declaració de variables
@@ -94,16 +109,21 @@ public class UF06Exemple03 {
 }
 ```
 
-# Exemple 04
+:::
+
+## Exemple 4
 
 Recórrer un array i mostrar la mitjana.
 
+::: tabs
+== Java
+
 ```java
-package curso.uf06exemples;
+package curs.UF05exemples;
 /**
-* UF06 Exemeple 4: Recórrer un array i mostrar la mitjana.
+* UF05 Exemeple 4: Recórrer un array i mostrar la mitjana.
 */
-public class UF06Exemple04 {
+public class UF05Exemple04 {
     public static void main(String[] args) {
         // Declarem variables i carreguem vector
         int i;
@@ -121,18 +141,23 @@ public class UF06Exemple04 {
 }
 ```
 
-# Exemple 05
+:::
+
+## Exemple 5
 
 A partir de les notes dels estudiants d'una aula, genereu un gràfic de barres (o histograma) on s'indique el nombre d'estudiants que han tret suspès, aprovat, notable o excel·lent.
 
+::: tabs
+== Java
+
 ```java
-package curso.uf06exemples;
+package curs.UF05exemples;
 /**
-* UF06 Exemple 5: A partir de les notes dels estudiants d'una aula, genereu un gràfic de 
+* UF05 Exemple 5: A partir de les notes dels estudiants d'una aula, genereu un gràfic de 
 barres (o histograma)
 * on s'indique el nombre d'estudiants que han tret suspès, aprovat, notable o excel·lent.
 */
-public class UF06Exemple05 {
+public class UF05Exemple05 {
     public static void main (String[] args) {
         // Declaració de variables
         int i, j;
@@ -181,16 +206,21 @@ public class UF06Exemple05 {
 }
 ```
 
-# Exemple 06
+:::
 
-Mostrar una taula bidimentional (matriu 5x4) de notes.
+## Exemple 6
+
+Mostrar una taula bidimensional (matriu 5x4) de notes.
+
+::: tabs
+== Java
 
 ```java
-package curso.uf06exemples;
+package curs.UF05exemples;
 /**
-* UF06 Exemple 6. Mostrar una taula bidimensional de notes
+* UF05 Exemple 6. Mostrar una taula bidimensional de notes
 */
-public class UF06Exemple06 {
+public class UF05Exemple06 {
     public static void main (String[] args) {
         // Inicialització de la matriu de notes
         float[][] vectorNotes = {
@@ -212,18 +242,23 @@ public class UF06Exemple06 {
 }
 ```
 
-# Exemple 07
+:::
+
+## Exemple 07
 
 Cerca en una frase introduïda per teclat de la primera i última aparició d’un caràcter indicat per l’usuari.
 
+::: tabs
+== Java
+
 ```java
-package curso.uf06exemples;
+package curs.UF05exemples;
 import java.util.Scanner;
 /**
-* UF06 Exemeple 07: Cerca en una frase introduïda per teclat de la primera i última 
+* UF05 Exemeple 07: Cerca en una frase introduïda per teclat de la primera i última 
 aparició d’un caràcter indicat per l’usuari.
 */
-public class UF06Exemple07 {
+public class UF05Exemple07 {
     public static void main(String[] args) { 
         // Declaració de variables
         String text, charText;
@@ -253,17 +288,22 @@ public class UF06Exemple07 {
 }
 ```
 
-# Exemple 08
+:::
+
+## Exemple 8
 
 Cerca seqüencial
 
+::: tabs
+== Java
+
 ```java
-package curso.uf06exemples;
+package curs.UF05exemples;
 import java.util.Scanner;
 /**
-* UF06 Exemple 8: Cerca seqüencial
+* UF05 Exemple 8: Cerca seqüencial
 */
-public class UF06Exemple08 {
+public class UF05Exemple08 {
     public static void main (String[] args){
         int vector[] = {5, 7, 9, 3, 2, 8, 10, 1, 0, 5, 7};
         int numero, i;
@@ -284,18 +324,23 @@ public class UF06Exemple08 {
 }
 ```
 
-# Exemple 09
+:::
+
+## Exemple 9
 
 Cerca dicotòmica o binaria per programa.
 
+::: tabs
+== Java
+
 ```java
-package curso.uf06exemples;
+package curs.UF05exemples;
 import java.util.Scanner;
 import java.util.Arrays;
 /**
-* UF06 Exemple 09: Cerca dicotòmica o binària per programa
+* UF05 Exemple 09: Cerca dicotòmica o binària per programa
 */
-public class UF06Exemple09 {
+public class UF05Exemple09 {
     public static void main (String[] args){
 
         int vector[] = {5, 7, 9, 3, 2, 8, 10, 1, 0, 5, 7};
@@ -337,20 +382,24 @@ public class UF06Exemple09 {
 }
 ```
 
-# Exemple 10
+:::
 
-Cerca dicotòmica o binaria utilitzant la funció binarySearch.
-Inclou exemple de l’ús de la funció arraycopy.
+## Exemple 10
+
+Cerca dicotòmica o binaria utilitzant la funció binarySearch. Inclou exemple de l’ús de la funció arraycopy.
+
+::: tabs
+== Java
 
 ```java
-package curso.uf06exemples;
+package curs.UF05exemples;
 import java.util.Scanner;
 import java.util.Arrays;
 /**
 * Cerca dicotòmica o binaria utilitzant la funció binarySearch.
 * Inclou exemple de l’ús de la funció arraycopy.
 */
-public class UF06Exemple10 {
+public class UF05Exemple10 {
     public static void main (String[] args){
         int vector1[] = {5, 7, 9, 3, 2, 8, 10, 1, 0, 5, 7};
         int vector2[] = new int[vector1.length];
@@ -381,7 +430,9 @@ public class UF06Exemple10 {
 }
 ```
 
-# 9. Exemple d’ompliment i recorregut d’un vector
+:::
+
+## Exemple d’ompliment i recorregut d’un vector
 
 Veurem un exemple de com omplir i mostrar un vector d'enters:
 

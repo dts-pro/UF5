@@ -1,4 +1,6 @@
-# 1. ARRAYS
+# Exercicis
+
+## 1. Arrays
 
 ## 1.1. Arrays - Nivell A
 
@@ -31,9 +33,7 @@ NOTA: Utilitza els mètodes de la classe ‘arrays’ per a ajudar-te a resoldre
 19. Necessitem crear un programa per a mostrar el rànquing de puntuacions d'un torneig d'escacs amb 8 jugadors. Se li demanarà a l'usuari que introduïsca les puntuacions de tots els jugadors (habitualment valors entre 1000 i 2800, de tipus enter) i després mostre les puntuacions en ordre descendent (de la més alta a la més baixa).
 20. Crea un programa que cree un array de grandària 1000 i ho emplene amb valors enters aleatoris entre 0 i 99 (utilitza Math.random()*100). Després demanarà per teclat un valor N i es mostrarà per pantalla si N existeix en el array, a més de quantes vegades.
 
-# 2. STRING
-
-## 2.1. String - Nivell A
+## 2. String
 
 **NOTA**: Utilitza mètodes de la classe String quan siga necessari per a ajudar-te a resoldre'ls
 
@@ -41,21 +41,19 @@ NOTA: Utilitza els mètodes de la classe ‘arrays’ per a ajudar-te a resoldre
 2. Crea un programa que demane dues cadenes de text per teclat i després indique si són iguals, a més de si són iguals sense diferenciar entre majúscules i minúscules.
 3. Crea un programa que demane per teclat tres cadenes de text: nom i dos cognoms. Després mostrarà un codi d'usuari (en majúscules) format per la concatenació de les tres
 primeres lletres de cadascun d'ells. Per exemple si s'introdueix “Lionel”, “Martí” i “Alcocebre” mostrarà “LIOMARALC”.
-4. Crea un programa que mostre per pantalla quantes vocals de cada tipus hi ha (quantes ‘a’, quantes ‘e’, etc.) en una frase introduïda per teclat. No s'ha de diferenciar entre majúscules i minúscules. Per exemple donada la frase “La meua mama m'acarona” dirà que hi ha:  
+1. Crea un programa que mostre per pantalla quantes vocals de cada tipus hi ha (quantes ‘a’, quantes ‘e’, etc.) en una frase introduïda per teclat. No s'ha de diferenciar entre majúscules i minúscules. Per exemple donada la frase “La meua mama m'acarona” dirà que hi ha:  
 Núm. de A's: 7  
 Núm. de E's: 1  
 Núm. d'I's: 0  
 Núm. d'O's: 1  
 Núm. d'U's: 1  
-5. Realitza un programa que llija una frase per teclat i indique si la frase és un palíndrom o no (ignorant espais i sense diferenciar entre majúscules i minúscules). Suposarem que l'usuari només introduirà lletres i espais (ni comes, ni punts, ni accents, etc.). Un palíndrom és un text que es llig igual d'esquerra a dreta que de dreta a esquerra. Per exemple:  
+1. Realitza un programa que llija una frase per teclat i indique si la frase és un palíndrom o no (ignorant espais i sense diferenciar entre majúscules i minúscules). Suposarem que l'usuari només introduirà lletres i espais (ni comes, ni punts, ni accents, etc.). Un palíndrom és un text que es llig igual d'esquerra a dreta que de dreta a esquerra. Per exemple:  
 A cavall la vaca  
 A una diputada tupida nua  
 Mulla la llum  
 Un aviador roda i va nu  
 
-# 3. MATRIUS
-
-## 3.1. Matrius - Nivell A
+## 3. Matrius
 
 1. Crea un programa que cree una matriu de grandària 5x5 que emmagatzeme els números de l'1 al 25 i després mostre la matriu per pantalla.
 2. Crea un programa que cree una matriu de 10x10 i introduïsca els valors de les taules de multiplicar de l'1 al 10 (cada taula en una fila). Després mostrarà la matriu per pantalla.
@@ -63,7 +61,7 @@ Un aviador roda i va nu
 4. Necessitem crear un programa per a emmagatzemar les notes de 4 estudiants (anomenats “Estudiant 1”, “Estudiant 2”, etc.) i 5 assignatures. L'usuari introduirà les notes per teclat i després el programa mostrarà la nota mínima, màxima i mitjana de cada estudiant.
 5. Necessitem crear un programa per a registrar sous de dones i homes d'una empresa i detectar si existeix bretxa salarial entre tots dos. El programa demanarà per teclat la informació de N persones diferents (valor també introduït per teclat). Per a cada persona, demanarà el seu gènere (0 per a home i 1 per a dona) i el seu sou. Aquesta informació ha de guardar-se en una única matriu. Després es mostrarà per pantalla el sou mitjà de cada gènere.
 
-# 4. HASHMAP
+## 4. HashMap
 
 ## 4.1. HashMap - Nivell A
 
@@ -75,7 +73,7 @@ Un aviador roda i va nu
 3. Crea un programa en Java que permeta gestionar l'inventari d'una botiga. El programa hauria de ser capaç d'emmagatzemar el preu unitari i la quantitat disponible de diferents productes utilitzant un HashMap. L'usuari haurà de poder afegir nous productes, especificant el nom, preu unitari i la quantitat disponible. A més, el programa haurà de permetre mostrar l'inventari, mostrant per a cada producte la seua quantitat, preu unitari i el total acumulat de cada tipus de producte..
 4. Escriu un programa en Java que facilite la gestió de les despeses en diferents categories. Utilitza un HashMap per emmagatzemar el preu unitari i la quantitat gastada per a cada categoria de despesa. L'usuari haurà de poder afegir noves despeses especificant la categoria, preu unitari i quantitat gastada. El programa també ha de permetre mostrar les despeses, indicant per a cada categoria la quantitat gastada, el preu unitari i el total acumulat de cada tipus de despesa.
 
-# 5. ARRAYLIST
+## 5. ArrayList
 
 ## 5.1. ArrayList - Nivell A
 

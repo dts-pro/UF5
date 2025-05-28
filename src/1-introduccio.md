@@ -1,4 +1,4 @@
-# 1. Introducció2
+# 1. Introducció
 
 Un **vector** o **array** és una col·lecció de **valors d'un mateix tipus** dins d'una mateixa variable. De manera que es pot accedir a cada valor independentment.
 

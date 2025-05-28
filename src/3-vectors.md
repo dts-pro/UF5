@@ -22,6 +22,9 @@ Declara un array de tipus int i un altre de tipus double. Aquesta declaració in
 
 Exemple:
 
+::: tabs
+== Java
+
 ```java
 int notes[]; // Declarem ‘notes’ com array de tipus int
 notes = new int[5]; // Instanciem ‘notes’ a grandària 5
@@ -29,6 +32,8 @@ notes = new int[5]; // Instanciem ‘notes’ a grandària 5
 // És habitual declarar i instanciar en una sola línia
 int notes[] = new int[5];
 ```
+
+:::
 
 En l'exemple anterior es crea un array de cinc enters (amb els tipus bàsics es crea en memòria l’array i s'inicialitzen els valors, **els númeross'inicialitzen a 0**).
 
@@ -42,18 +47,31 @@ Els valors del array s'assignen (emmagatzemen) utilitzant l'índex del mateix en
 
 Per exemple, per a emmagatzemar el valor 2 en la tercera posició del array escriuríem:
 
+::: tabs
+== Java
+
 ```java
 notes[2] = 2;
 ```
 
+:::
+
 També es poden assignar valors al array en la pròpia declaració i instanciació:
+
+::: tabs
+== Java
 
 ```java
 int notes[] = {8, 10, 2, 3, 5};
 int notes[]= new int[] {8, 10, 2, 3, 5}; //Equivalent a l'anterior
 ```
 
+:::
+
 Això declara i inicialitza un array de cinc elements. L’exemple seria equivalent a:
+
+::: tabs
+== Java
 
 ```java
 notes[0] = 8;
@@ -63,8 +81,9 @@ notes[3] = 3;
 notes[4] = 5;
 ```
 
-A Java (com en altres llenguatges) el primer element d'un array éstá en la posició zero. El
-primerelement del array notes, és notes[0].
+:::
+
+A Java (com en altres llenguatges) el primer element d'un array està en la posició zero. El primer element del array notes, és notes[0].
 
 **Es poden declarar arrays** a qualsevol mena de dades (**enters, booleans, doubles**... i, fins i tot, **objectes**)
 
@@ -74,10 +93,15 @@ Els arrays posseeixen una propietat anomenada length que indica la seua grandàr
 
 Exemple:
 
+::: tabs
+== Java
+
 ```java
 int notes[] = new int[5]; // Vector tipus int de grandària 5
 System.out.println( notes.length ); // Mostrarà un 5
 ```
+
+:::
 
 Si el vector té com en l'exemple 5 elements, la propietat `length` ens retornarà el valor sencer 5, però el primer element estroba en notes[0] i l'últim en notes[4].
 
@@ -86,6 +110,9 @@ Si el vector té com en l'exemple 5 elements, la propietat `length` ens retornar
 Per a recórrer un vector (accedir a tots els seus elements) sempre serà necessari un bucle.
 
 En el següent exemple declarem i instanciem un vector tipus int amb les notes d'un alumne idesprés utilitzem un bucle for per a recórrer el vector i mostrar tots els elements.
+
+::: tabs
+== Java
 
 ```java
 // Declarem i instanciem vector tipus int
@@ -98,7 +125,12 @@ for (int i = 0; i < notas.length; i++) {
 }
 ```
 
+:::
+
 Ara calcularem la nota mitjana (sumar totes i després dividir entre el nombre de notes):
+
+::: tabs
+== Java
 
 ```java
 // Declarem suma i mitja int suma = 0;
@@ -109,8 +141,10 @@ for (int i = 0; i < notas.length; i++) {
 }
 // Calculem la mitjana i la vam mostrar per pantalla 
 mitjana = summa / notas.length; 
-System.out.println(“La nota mitjana és: “ + mitjana);
+System.out.println("La nota mitjana és: " + mitjana);
 ```
+
+:::
 
 ## 3.6. Còpia de vectors
 
@@ -124,12 +158,20 @@ Si per exemple volem copiar tots els elements del vector v2 en el vector v1, exi
 
 ### 3.6.1. Copiar els elements un a un
 
+::: tabs
+== Java
+
 ```java
 for (i = 0; i < v1.length; i++)
   v2[i] = v1[i];
 ```
 
+:::
+
 ### 3.6.2. Utilitzar la funció arraycopy
+
+::: tabs
+== Java
 
 ```java
 System.arraycopy(v_origen, i_origen, v_destí, i_destí, length);
@@ -140,3 +182,5 @@ System.arraycopy(v_origen, i_origen, v_destí, i_destí, length);
 // Copiem tots els elements de v1 en v2
 System.arraycopy(v1, 0, v2, 0, v1.length);
 ```
+
+:::

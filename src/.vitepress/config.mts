@@ -46,7 +46,7 @@ export default withMermaid({
         { text: 'Exemples', link: '/11-exemples' },
         { text: 'Exercicis', link: '/12-exercicis' },
       ]},
-      { text: '📚 Continguts', items: [
+      { text: '📚 Continguts addicionals', items: [
         { text: 'For en format foreach', link: '/13-add_foreach' },
       ]}
     ],
@@ -68,7 +68,7 @@ export default withMermaid({
           { text: 'Exercicis', link: '/12-exercicis' },
         ]
       },
-      { text: '📚 Continguts', items: [
+      { text: '📚 Continguts addicionals', items: [
         { text: 'For en format foreach', link: '/13-add_foreach' },
         { text: '<img src="img/logo-gva.png" class="logo-anim" style="vertical-align:middle; height:150px; margin-top:100px;">', link: '' },
         { text: '<img src="img/logo-centro.png" class="logo-anim" style="vertical-align:middle; height:150px;">', link: '' }

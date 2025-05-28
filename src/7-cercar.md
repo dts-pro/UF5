@@ -8,6 +8,9 @@ La cerca seqüencial és la més fàcil de les dues, ja que consisteix a compara
 
 Un exemple és el següent, on es retorna la posició de l'element en el vector i si no el troba, retorna el valor-1:
 
+::: tabs
+== Java
+
 ```java
 public static int busquedaSequencial(int[] v, int element){
   int i, posicio = -1;
@@ -18,6 +21,8 @@ public static int busquedaSequencial(int[] v, int element){
   return posicio;
 }
 ```
+
+:::
 
 ## 7.2. Cerca dicotòmica o binària
 

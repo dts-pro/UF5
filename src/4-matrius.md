@@ -14,6 +14,9 @@ Per exemple, declarem i instanciem un array de 3 x 3 (3 files x 3 columnes).
 
 Accedim als seus valors utilitzant dobles claudàtors.
 
+::: tabs
+== Java
+
 ```java
 preus[0][0] = 7.5;
 preus[0][1] = 12;
@@ -22,13 +25,23 @@ preus[1][0] = 4.75;
 // etc.
 ```
 
+:::
+
 Vegem un altre exemple en el qual declarem i instanciem un array de 3 files x 6 columnes per emmagatzemar les notes de 3 alumnes (la fila correspon a un alumne, i cada columna a les notes d'aquest alumne):
+
+::: tabs
+== Java
 
 ```java
 int notes[][] = new int[3][6]; // És equivalent a 3 vectors de grandària 6
 ```
 
+:::
+
 Suposant que les notes ja estan emmagatzemades, recorrerem la matriu (array bidimensional) pera mostrar les notes per pantalla. Cal tindre en compte que com té dues dimensions necessitaremn bucle niat (un per a les files i un altre per a les columnes de cada fila):
+
+::: tabs
+== Java
 
 ```java
 // Per a cada fila (alumne)
@@ -39,3 +52,5 @@ for (int i = 0; i < notes.length; i++) {
     System.out.print(notes[i][j] + “ “);
 }
 ```
+
+:::
