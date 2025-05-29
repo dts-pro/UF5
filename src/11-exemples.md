@@ -244,7 +244,7 @@ public class UF05Exemple06 {
 
 :::
 
-## Exemple 07
+## Exemple 7
 
 Cerca en una frase introduïda per teclat de la primera i última aparició d’un caràcter indicat per l’usuari.
 
