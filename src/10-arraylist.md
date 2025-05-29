@@ -17,7 +17,7 @@ La principal diferència entre arrays i ArrayList en Java és:
 Alguns detalls importants dels ArrayList:
 
 - Es declaren especificant el tipus de dades dels elements que emmagatzemaran entre < >.  
-  Per exemple: `ArrayList\<String> llista = new ArrayList<>();`
+  Per exemple: `ArrayList<String> llista = new ArrayList<>();`
 - Permeten accedir a elements específics mitjançant un índex que comença en 0.
 - Poden inserir, eliminar, buscar elements de manera eficient.
 - L'accés i recorregut és molt ràpid, ja que estan basats en arrays redimensionables.
@@ -37,7 +37,6 @@ ArrayList<String> noms = new ArrayList<>();
 
 ::: tabs
 == Java
-
 
 ```java
 noms.add("Pau");
