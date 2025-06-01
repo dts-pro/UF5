@@ -1,4 +1,4 @@
-# UF01. Fonaments de Programació11
+# UF01. Fonaments de Programació
 
 ::: tip Informació del curs
 **Professors:** Guillermo Garrido Portes / David Tur Sanmateu
