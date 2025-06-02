@@ -436,10 +436,44 @@ public class UF05Exemple10 {
 
 Veurem un exemple de com omplir i mostrar un vector d'enters:
 
-![Exemples omplir Vector](/uf5/exempleOmplirVector.jpg)
+::: tabs
+== Java
+
+```java
+public static void main(String[] args) {
+    Scanner in = new Scanner(System.in);
+
+    int[] vector = new int[5]; // Creació d'un vector d'enters de mida 5
+    int i;
+
+    System.out.print("Introdueix els valors del vector: ");
+
+    // Omplir el vector amb valors des del teclat
+    for(i = 0; i < vector.length; i++)
+        vector[i] = in.nextInt();
+
+    System.out.print("El vector introduït és: ");
+
+    // Mostrar el vector
+    for(i = 0; i < vector.length; i++)
+        System.out.print(vector[i] + " ");
+
+    System.out.println();
+}
+```
+
+:::
 
 Fem ús de la propietat `length`. També podríem haver posat un 5 (grandària del vector). L'eixida és:
 
-![Eixida Omplir Vector](/uf5/EixidaOplirVector.jpg)
+::: tabs
+== Java
+
+```java
+Introdueix els valors del vector: 1 2 3 4 5
+El vector introduït és: 1 2 3 4 5
+```
+
+:::
 
 Podem introduir els valors amb espais i una vegada introduït el cinqué número donar-li al 'intro'. O introduir un valor per línia.

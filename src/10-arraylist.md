@@ -1,4 +1,4 @@
-# 11. La classe ArrayList (Arrays redimensionables)
+# 10. La classe ArrayList (Java)
 
 Els ArrayList són una classe de la llibreria de col·leccions de Java que implementen la interfície List. Permeten emmagatzemar elements dins d'una llista dinàmica on la mida pot augmentar i disminuir segons es vagin afegint o eliminant elements.
 

@@ -1,16 +1,25 @@
-# 4. Matrius (arrays multidimensionals)
+# 4. Matrius (vectors multidimensionals)
 
-Els arrays poden tindre més d'una dimensió. Els més utilitzats són els arrays de 2 dimensions, coneguts com a matrius.
+Els vectors poden tindre més d'una dimensió. Els més utilitzats són els vectors de 2 dimensions, coneguts com a matrius.
 
-Les matrius es defineixen de les següents formes:
+Les matrius es defineixen de la següent forma:
 
-`tipus identificador[][]; tipus[][] identificador;`
+::: tabs
+== Java
+`tipus identificador[][];`  
+`tipus[][] identificador;`
+
+Ambdues declaracions són equivalents.
+:::
+
+Per exemple, declarem i instanciem un vector de 3 x 3 (3 files x 3 columnes).
 
 ![Matriu](/uf5/Matriu.jpg)
 
-Per exemple, declarem i instanciem un array de 3 x 3 (3 files x 3 columnes).
-
+::: tabs
+== Java
 `double preus[][] = new int[3][3];`
+:::
 
 Accedim als seus valors utilitzant dobles claudàtors.
 
@@ -27,7 +36,7 @@ preus[1][0] = 4.75;
 
 :::
 
-Vegem un altre exemple en el qual declarem i instanciem un array de 3 files x 6 columnes per emmagatzemar les notes de 3 alumnes (la fila correspon a un alumne, i cada columna a les notes d'aquest alumne):
+Vegem un altre exemple en el qual declarem i instanciem un vector de 3 files x 6 columnes per emmagatzemar les notes de 3 alumnes (la fila correspon a un alumne, i cada columna a les notes d'aquest alumne):
 
 ::: tabs
 == Java
@@ -38,7 +47,7 @@ int notes[][] = new int[3][6]; // És equivalent a 3 vectors de grandària 6
 
 :::
 
-Suposant que les notes ja estan emmagatzemades, recorrerem la matriu (array bidimensional) pera mostrar les notes per pantalla. Cal tindre en compte que com té dues dimensions necessitaremn bucle niat (un per a les files i un altre per a les columnes de cada fila):
+Suposant que les notes ja estan emmagatzemades, recorrerem la matriu (vector bidimensional) per a mostrar les notes per pantalla. Cal tindre en compte que com té dues dimensions necessitarem bucle niat (un per a les files i un altre per a les columnes de cada fila):
 
 ::: tabs
 == Java
@@ -49,7 +58,7 @@ for (int i = 0; i < notes.length; i++) {
   System.out.print("Notes de l'alumne" + i + ": ");
   // Per a cada columna (nota)
   for (int j = 0; j < notes[i].length; j++) 
-    System.out.print(notes[i][j] + “ “);
+    System.out.print(notes[i][j] + " ");
 }
 ```
 

@@ -1,4 +1,4 @@
-# 10. La classe HashMap (Arrays associatius)
+# 9. La classe HashMap (Java)
 
 Un HashMap és un tipus de col·lecció en Java que ens permet emmagatzemar dades en forma de clau-valor. És a dir, podrem guardar un valor i després accedir a este valor fent servir una clau.
 

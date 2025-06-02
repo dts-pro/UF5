@@ -1,4 +1,4 @@
-# 6. La classe String
+# 6. La classe String (Java)
 
 Les cadenes de text són objectes especials. Els textos han de manejar-se creant objectes de tipus String.
 
