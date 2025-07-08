@@ -1,4 +1,11 @@
-# UF01. Fonaments de Programació
+# UF05. Vectors
+
+<!--
+Dividir el tema en dos: 5.1 i 5.2. 
+
+- 5.1 anirà sobre els vectors, marius, string i algoritmes de búsqueda
+- 5.2 anirà sobre col·leccions: llistats, estructura clau-valor, coles i piles
+-->
 
 ::: tip Informació del curs
 **Professors:** Guillermo Garrido Portes / David Tur Sanmateu
